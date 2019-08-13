@@ -1,0 +1,1848 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>ActivePlanet</title>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="css/landing.css">
+</head>
+
+
+
+<body>
+
+	<div class="flex-wrap">
+		<div class="flex-container">
+			<!-- header -->
+			<header>
+				<div class="header" style="background-color: #fff;">
+					<div class="header-wrap header-container">
+						<div class="header-left">
+							<div class="logo">
+								<a href="/" class="logo__link">
+									<img src="img/icons/logo.svg" class="logo__img" alt="logo">
+									<img src="img/icons/active_logo_top-ru.svg" class="logo__img-top" alt="logo-top">
+								</a>
+							</div>
+							<div class="language">
+								<a class="active" href="#">ru</a>
+								<a href="#">en</a>
+							</div>
+						</div>
+
+						<div class="header-center">
+							<ul class="menu links-list">
+								<li class="menu__item links__item"><a href="#advantages" class="links_link"
+										style="color:#363636">В стоимость входит</a></li>
+								<li class="menu__item links__item"><a href="#advantage" class="links_link"
+										style="color:#363636">Преимущества</a></li>
+								<li class="menu__item links__item"><a href="#gallery" class="links_link"
+										style="color:#363636">Галерея</a></li>
+								<li class="menu__item links__item"><a href="#video-player" class="links_link"
+										style="color:#363636">Видео</a></li>
+								<li class="menu__item links__item"><a href="#services" class="links_link"
+										style="color:#363636">Услуги</a></li>
+								<li class="menu__item links__item"><a href="#privileges" class="links_link"
+										style="color:#363636">Почему мы</a></li>
+								<li class="menu__item links__item"><a href="#comments" class="links_link"
+										style="color:#363636">Отзывы</a></li>
+							</ul>
+						</div>
+
+						<div class="header-right">
+							<a href="#form-section"><button class="btn btn--green ripple-effect">Оставить
+									заявку</button></a>
+						</div>
+						<div class="btn-mobile-menu">
+							<span class="btn-mobile-menu__line"></span>
+							<span class="btn-mobile-menu__line"></span>
+							<span class="btn-mobile-menu__line"></span>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div class="main">
+
+				<!-- baner text -->
+				<section class="banner-top">
+					<div class="banner-top__video-box">
+						<video muted="" class="banner-top__video" autoplay="" loop="" id="bgvid">
+							<source type="video/mp4"
+								src="https://acy.moohii.com/assets/active_cyprus/files/manager_files/videos/full_size_master_1585x680-3.mp4">
+						</video>
+					</div>
+					<div class="banner-top__video-poster"
+						style="background-image: url('img/banners/landing-baner_1.jpg')"></div>
+					<div class="container">
+						<div class="banner-top__text">
+							<p style="color: #fff;">
+								Сборы по плаванью в Европе от 39 €
+							</p>
+							<div class="landing-form-wrapper">
+								<div class="title">
+									Рассчитайте стоимость участия в сборах
+								</div>
+								<form action="#" class="landing-calculator-form">
+									<div class="input-wrapper">
+										<div class="form-group">
+											<label class="input-name">
+											</label>
+											<input id="form-input-name" class="form-input-landing" placeholder="Имя"
+												name='name' required type="text">
+											<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+												preserveAspectRatio="none">
+												<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+											</svg>
+										</div>
+
+										<div class="form-group">
+											<label class="input-email">
+											</label>
+											<input id="form-input-email" class="form-input-landing" name='email'
+												required placeholder="Email" type="email">
+											<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+												preserveAspectRatio="none">
+												<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+											</svg>
+										</div>
+										<div class="form-group">
+											<label class="input-phone">
+											</label>
+											<input id="form-input-phone" class="form-input-landing"
+												placeholder="Телефон" name='phone' required type="text">
+											<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+												preserveAspectRatio="none">
+												<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+											</svg>
+										</div>
+										<div class="form-group disabled">
+											<label class="input-activity ">
+												<img src="img/landing/swimming-icon.svg" alt="">
+											</label>
+											<input class="disabled" id="form-input-activity" name="activity" disabled
+												value="Плаванье" type="text">
+
+										</div>
+										<div class="form-group">
+											<label class="input-time">
+											</label>
+											<input id="form-input-time" name='time' required class="form-input-landing"
+												placeholder="Дней участия" type="text">
+											<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+												preserveAspectRatio="none">
+												<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+											</svg>
+										</div>
+										<div class="form-group">
+											<label class="input-amount">
+											</label>
+											<input id="form-input-amount" name='amount' required
+												class="form-input-landing" placeholder="Количество спортсменов"
+												type="text">
+											<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+												preserveAspectRatio="none">
+												<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+											</svg>
+										</div>
+									</div>
+									<div class="bottom-block">
+										<div class="column">
+											<div class="title">
+												Класс отеля
+											</div>
+											<div class="radio-group">
+												<input name="calculator-radio" type="radio" checked>
+												<label for="calculator-radio">3 звезды</label>
+											</div>
+											<div class="radio-group">
+												<input name="calculator-radio" type="radio">
+												<label for="calculator-radio">4 звезды</label>
+											</div>
+											<div class="radio-group">
+												<input name="calculator-radio" type="radio">
+												<label for="calculator-radio">5 звезд</label>
+											</div>
+										</div>
+										<div class="column">
+											<div class="title">
+												Дополнительные опции
+											</div>
+											<div class="checkbox-group">
+												<input type="checkbox">
+												<label for="">Виза и страховка</label>
+											</div>
+											<div class="checkbox-group">
+												<input type="checkbox">
+												<label for="">Трехразовое питание</label>
+											</div>
+											<div class="checkbox-group">
+												<input type="checkbox">
+												<label for="">Индивидуальные тренировки</label>
+											</div>
+										</div>
+										<div class="column personal-data">
+											<div class="checkbox-group personal-data-checkbox">
+												<input type="checkbox" checked>
+												<label class="gray-label" for="">Даю согласие на обработку своих
+													персональных данных</label>
+											</div>
+											<button class="submit-button ripple-effect ">Расчитать стоимость</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+
+				</section>
+
+				<!-- package-offers -->
+				<section id="package-offer" class="section package-offer">
+					<h3 class="title">
+						Пакетные предложения
+					</h3>
+					<div class="offers">
+						<div class="offer">
+							<div class="offer-img-block">
+								<img src="img/landing/image.svg" alt="" class="offer-img">
+							</div>
+							<div class="offer-title">Сбор по айкидо</div>
+							<div class="offer-bottom-block">
+								<div class="text-block">
+									<div class="text-block-title ">Локация</div>
+									<div class="text-block-value location">Лимассол,Кипр</div>
+								</div>
+								<div class="text-block">
+									<div class="text-block-title">Цена</div>
+									<div class="text-block-value price">от <span class="price-big">39</span> €</div>
+								</div>
+								<button class="ripple-effect offer-item__show cboxElement">Ознакомиться</button>
+								<button class="more-info__btn">Подробнее <span class="arrow"></span></button>
+							</div>
+						</div>
+						<div class="offer">
+							<div class="offer-img-block">
+								<img src="img/landing/image.svg" alt="" class="offer-img">
+							</div>
+							<div class="offer-title">Сбор по айкидо</div>
+							<div class="offer-bottom-block">
+								<div class="text-block">
+									<div class="text-block-title">Локация</div>
+									<div class="text-block-value location">Лимассол,Кипр</div>
+								</div>
+								<div class="text-block">
+									<div class="text-block-title">Цена</div>
+									<div class="text-block-value price">от <span class="price-big">39</span> €</div>
+								</div>
+								<button class="ripple-effect offer-item__show cboxElement">Ознакомиться</button>
+								<button class="more-info__btn">Подробнее <span class="arrow"></span></button>
+							</div>
+						</div>
+						<div class="offer">
+							<div class="offer-img-block">
+								<img src="img/landing/image.svg" alt="" class="offer-img">
+							</div>
+							<div class="offer-title">Сбор по айкидо</div>
+							<div class="offer-bottom-block">
+								<div class="text-block">
+									<div class="text-block-title">Локация</div>
+									<div class="text-block-value location">Лимассол,Кипр</div>
+								</div>
+								<div class="text-block">
+									<div class="text-block-title">Цена</div>
+									<div class="text-block-value price">от <span class="price-big">39</span> €</div>
+								</div>
+								<button class="ripple-effect offer-item__show cboxElement">Ознакомиться</button>
+								<button class="more-info__btn">Подробнее <span class="arrow"></span></button>
+							</div>
+						</div>
+						<div class="offer">
+							<div class="offer-img-block">
+								<img src="img/landing/image.svg" alt="" class="offer-img">
+							</div>
+							<div class="offer-title">Сбор по айкидо</div>
+							<div class="offer-bottom-block">
+								<div class="text-block">
+									<div class="text-block-title">Локация</div>
+									<div class="text-block-value location">Лимассол,Кипр</div>
+								</div>
+								<div class="text-block">
+									<div class="text-block-title">Цена</div>
+									<div class="text-block-value price">от <span class="price-big">39</span> €</div>
+								</div>
+								<button class="ripple-effect offer-item__show cboxElement">Ознакомиться</button>
+								<button class="more-info__btn">Подробнее <span class="arrow"></span></button>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- advantages -->
+				<section id="advantages" class="section advantages" data-anchor="advantages"
+					style="background-image: url(img/landing/advantages-bg.jpg);">
+					<div class="advantages__wrapper">
+						<h3 class="h3 advantages__title">В стоимость входит</h3>
+						<ul class="advantages__list">
+							<li class="advantages__item">
+								<div class="advantages__item__inner">
+									<div class="advantages__icon-box"
+										style="background-image: url('img/icons/new/bus.svg')"></div>
+									<div class="advantages__title-text">Проживание рядом со спортивным объектом</div>
+								</div>
+							</li>
+							<li class="advantages__item">
+								<div class="advantages__item__inner">
+									<div class="advantages__icon-box"
+										style="background-image: url('img/icons/new/bus.svg')"></div>
+									<div class="advantages__title-text">Проживание рядом со спортивным объектом</div>
+								</div>
+							</li>
+							<li class="advantages__item">
+								<div class="advantages__item__inner">
+									<div class="advantages__icon-box"
+										style="background-image: url('img/icons/new/bus.svg')"></div>
+									<div class="advantages__title-text">Проживание рядом со спортивным объектом</div>
+								</div>
+							</li>
+							<li class="advantages__item">
+								<div class="advantages__item__inner">
+									<div class="advantages__icon-box"
+										style="background-image: url('img/icons/new/bus.svg')"></div>
+									<div class="advantages__title-text">Проживание рядом со спортивным объектом</div>
+								</div>
+							</li>
+							<li class="advantages__item">
+								<div class="advantages__item__inner">
+									<div class="advantages__icon-box"
+										style="background-image: url('img/icons/new/bus.svg')"></div>
+									<div class="advantages__title-text">Проживание рядом со спортивным объектом</div>
+								</div>
+							</li>
+							<li class="advantages__item">
+								<div class="advantages__item__inner">
+									<div class="advantages__icon-box"
+										style="background-image: url('img/icons/new/bus.svg')"></div>
+									<div class="advantages__title-text">Проживание рядом со спортивным объектом</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- advantage -->
+				<section id="advantage" class="section advantage" data-anchor="advantage"
+					style="background-color: #fff;">
+					<h3 class="h3" style="color: #363636;">Преимущества</h3>
+					<div class="container">
+						<div class="advantage-wrap">
+
+							<div class="advantage-item advantage-item__show">
+								<div class="hidden-info">
+									<div class="advantage-item__description">
+										<p>
+											<b>Диагностика спортсмена</b>, помощь выбора подходящего <br>
+											вида спорта, правильное оценивание физической подготовки и распределение
+											<br>
+											нагрузки, наблюдение за каждым спортсменом и индивидуальный подход.
+										</p>
+
+										<p>
+											<b>Контроль за функциональной готовностью организма спортсмена</b> в
+											условиях осуществления<br>
+											им избранной спортивной деятельности – всегда на основе использования
+											принципа <br>
+											мультипараметрической оценки характеристик совершаемой им специфической
+											работы и принципа <br>
+											мультипараметрической оценки реакций организма спортсмена на совершаемую им
+											тренировочную <br>
+											и соревновательную работу.
+										</p>
+										<p>
+											<b>Контроль за функциональной готовностью организма спортсмена</b> в
+											условиях осуществления<br>
+											им избранной спортивной деятельности – всегда на основе использования
+											принципа <br>
+											мультипараметрической оценки характеристик совершаемой им специфической
+											работы и принципа <br>
+											мультипараметрической оценки реакций организма спортсмена на совершаемую им
+											тренировочную <br>
+											и соревновательную работу.
+										</p>
+										<p>
+											<b>Контроль за функциональной готовностью организма спортсмена</b> в
+											условиях осуществления<br>
+											им избранной спортивной деятельности – всегда на основе использования
+											принципа <br>
+											мультипараметрической оценки характеристик совершаемой им специфической
+											работы и принципа <br>
+											мультипараметрической оценки реакций организма спортсмена на совершаемую им
+											тренировочную <br>
+											и соревновательную работу.
+										</p>
+										<p>
+											<b>Контроль за функциональной готовностью организма спортсмена</b> в
+											условиях осуществления<br>
+											им избранной спортивной деятельности – всегда на основе использования
+											принципа <br>
+											мультипараметрической оценки характеристик совершаемой им специфической
+											работы и принципа <br>
+											мультипараметрической оценки реакций организма спортсмена на совершаемую им
+											тренировочную <br>
+											и соревновательную работу.
+										</p>
+										<p>
+											<b>Контроль за функциональной готовностью организма спортсмена</b> в
+											условиях осуществления<br>
+											им избранной спортивной деятельности – всегда на основе использования
+											принципа <br>
+											мультипараметрической оценки характеристик совершаемой им специфической
+											работы и принципа <br>
+											мультипараметрической оценки реакций организма спортсмена на совершаемую им
+											тренировочную <br>
+											и соревновательную работу.
+										</p>
+									</div>
+									<div class="advantage-item__images">
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_1.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_2.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_3.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="advantage-item__icon"
+									style="background-image: url('img/landing/advantage-icons/field.svg')"></div>
+								<div class="advantage-item__title">
+									Профессиональная организация сборов на море и в горах
+								</div>
+								<div class="advantage-item__text">
+									Наша компания предлагает самые интересные и развлекательные экскурсии и
+									интереснейшую программу активного отдыха на выбор по всему острову.
+								</div>
+							</div>
+
+							<div class="advantage-item advantage-item__show">
+								<div class="hidden-info">
+									<div class="advantage-item__description">
+										<p>
+											<b>Диагностика спортсмена</b>, помощь выбора подходящего <br>
+											вида спорта, правильное оценивание физической подготовки и распределение
+											<br>
+											нагрузки, наблюдение за каждым спортсменом и индивидуальный подход.
+										</p>
+
+										<p>
+											<b>Контроль за функциональной готовностью организма спортсмена</b> в
+											условиях осуществления<br>
+											им избранной спортивной деятельности – всегда на основе использования
+											принципа <br>
+											мультипараметрической оценки характеристик совершаемой им специфической
+											работы и принципа <br>
+											мультипараметрической оценки реакций организма спортсмена на совершаемую им
+											тренировочную <br>
+											и соревновательную работу.
+										</p>
+									</div>
+									<div class="advantage-item__images">
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_1.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_2.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_3.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="advantage-item__icon"
+									style="background-image: url('img/landing/advantage-icons/Island.svg')"></div>
+								<div class="advantage-item__title">
+									Идеальный климат для тренировок круглый год
+								</div>
+								<div class="advantage-item__text">
+									Красивые и чистые пляжи, широкая набережная, красивые парки и удивительная природа
+									Кипра. Все это будет окружать вас во время сборов.
+								</div>
+							</div>
+
+							<div class="advantage-item advantage-item__show">
+								<div class="hidden-info">
+									<div class="advantage-item__description">
+										<p>
+											<b>Диагностика спортсмена</b>, помощь выбора подходящего <br>
+											вида спорта, правильное оценивание физической подготовки и распределение
+											<br>
+											нагрузки, наблюдение за каждым спортсменом и индивидуальный подход.
+										</p>
+
+										<p>
+											<b>Контроль за функциональной готовностью организма спортсмена</b> в
+											условиях осуществления<br>
+											им избранной спортивной деятельности – всегда на основе использования
+											принципа <br>
+											мультипараметрической оценки характеристик совершаемой им специфической
+											работы и принципа <br>
+											мультипараметрической оценки реакций организма спортсмена на совершаемую им
+											тренировочную <br>
+											и соревновательную работу.
+										</p>
+									</div>
+									<div class="advantage-item__images">
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_1.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_2.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_3.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="advantage-item__icon"
+									style="background-image: url('img/landing/advantage-icons/massage.svg')"></div>
+								<div class="advantage-item__title">
+									Спортивная медицина и реабилитация
+								</div>
+								<div class="advantage-item__text">
+									Предлагаем услуги по спортивной медицине, профессиональный спортивный массаж и
+									реабилитацию.
+								</div>
+							</div>
+
+							<div class="advantage-item advantage-item__show">
+								<div class="hidden-info">
+									<div class="advantage-item__description">
+										<p>
+											<b>Диагностика спортсмена</b>, помощь выбора подходящего <br>
+											вида спорта, правильное оценивание физической подготовки и распределение
+											<br>
+											нагрузки, наблюдение за каждым спортсменом и индивидуальный подход.
+										</p>
+
+										<p>
+											<b>Контроль за функциональной готовностью организма спортсмена</b> в
+											условиях осуществления<br>
+											им избранной спортивной деятельности – всегда на основе использования
+											принципа <br>
+											мультипараметрической оценки характеристик совершаемой им специфической
+											работы и принципа <br>
+											мультипараметрической оценки реакций организма спортсмена на совершаемую им
+											тренировочную <br>
+											и соревновательную работу.
+										</p>
+									</div>
+									<div class="advantage-item__images">
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_1.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_2.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_3.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="advantage-item__icon"
+									style="background-image: url('img/landing/advantage-icons/plane.svg')"></div>
+								<div class="advantage-item__title">
+									Оформление спортивных туров с перелетом
+								</div>
+								<div class="advantage-item__text">
+									Есть возможность приобрести спортивный пакет с перелетом, страховками, визами.
+								</div>
+							</div>
+
+							<div class="advantage-item advantage-item__show">
+								<div class="hidden-info">
+									<div class="advantage-item__description">
+										<p>
+											<b>Диагностика спортсмена</b>, помощь выбора подходящего <br>
+											вида спорта, правильное оценивание физической подготовки и распределение
+											<br>
+											нагрузки, наблюдение за каждым спортсменом и индивидуальный подход.
+										</p>
+
+										<p>
+											<b>Контроль за функциональной готовностью организма спортсмена</b> в
+											условиях осуществления<br>
+											им избранной спортивной деятельности – всегда на основе использования
+											принципа <br>
+											мультипараметрической оценки характеристик совершаемой им специфической
+											работы и принципа <br>
+											мультипараметрической оценки реакций организма спортсмена на совершаемую им
+											тренировочную <br>
+											и соревновательную работу.
+										</p>
+									</div>
+									<div class="advantage-item__images">
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_1.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_2.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_3.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="advantage-item__icon"
+									style="background-image: url('img/landing/advantage-icons/light_bulb.svg')">
+								</div>
+								<div class="advantage-item__title">
+									Дотации для спортсменов в зимний период времени
+								</div>
+								<div class="advantage-item__text">
+									В зимний период, от октября до марта, есть возможность получение дотаций для
+									команды.
+								</div>
+							</div>
+
+							<div class="advantage-item advantage-item__show">
+								<div class="hidden-info">
+									<div class="advantage-item__description">
+										<p>
+											<b>Диагностика спортсмена</b>, помощь выбора подходящего <br>
+											вида спорта, правильное оценивание физической подготовки и распределение
+											<br>
+											нагрузки, наблюдение за каждым спортсменом и индивидуальный подход.
+										</p>
+
+										<p>
+											<b>Контроль за функциональной готовностью организма спортсмена</b> в
+											условиях осуществления<br>
+											им избранной спортивной деятельности – всегда на основе использования
+											принципа <br>
+											мультипараметрической оценки характеристик совершаемой им специфической
+											работы и принципа <br>
+											мультипараметрической оценки реакций организма спортсмена на совершаемую им
+											тренировочную <br>
+											и соревновательную работу.
+										</p>
+									</div>
+									<div class="advantage-item__images">
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_1.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_2.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_3.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="advantage-item__icon"
+									style="background-image: url('img/landing/advantage-icons/bed.svg')"></div>
+								<div class="advantage-item__title">
+									Выбор комфортного места проживания
+								</div>
+								<div class="advantage-item__text">
+									Большой выбор мест проживания разного уровня и категории, от 3* до 5* отелей.
+								</div>
+							</div>
+
+							<div class="advantage-item advantage-item__show">
+								<div class="hidden-info">
+									<div class="advantage-item__description">
+										<p>
+											<b>Диагностика спортсмена</b>, помощь выбора подходящего <br>
+											вида спорта, правильное оценивание физической подготовки и распределение
+											<br>
+											нагрузки, наблюдение за каждым спортсменом и индивидуальный подход.
+										</p>
+
+										<p>
+											<b>Контроль за функциональной готовностью организма спортсмена</b> в
+											условиях осуществления<br>
+											им избранной спортивной деятельности – всегда на основе использования
+											принципа <br>
+											мультипараметрической оценки характеристик совершаемой им специфической
+											работы и принципа <br>
+											мультипараметрической оценки реакций организма спортсмена на совершаемую им
+											тренировочную <br>
+											и соревновательную работу.
+										</p>
+									</div>
+									<div class="advantage-item__images">
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_1.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_2.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_3.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="advantage-item__icon"
+									style="background-image: url('img/landing/advantage-icons/euro.svg')"></div>
+								<div class="advantage-item__title">
+									Раннее бронирование для лучшей цены сбора
+								</div>
+								<div class="advantage-item__text">
+									Для того чтобы получить лучшую цену на тренировочный сбор, необходимо бронироваться
+									за год, минимально за полгода вперед.
+								</div>
+							</div>
+
+							<div class="advantage-item advantage-item__show">
+								<div class="hidden-info">
+									<div class="advantage-item__description">
+										<p>
+											<b>Диагностика спортсмена</b>, помощь выбора подходящего <br>
+											вида спорта, правильное оценивание физической подготовки и распределение
+											<br>
+											нагрузки, наблюдение за каждым спортсменом и индивидуальный подход.
+										</p>
+
+										<p>
+											<b>Контроль за функциональной готовностью организма спортсмена</b> в
+											условиях осуществления<br>
+											им избранной спортивной деятельности – всегда на основе использования
+											принципа <br>
+											мультипараметрической оценки характеристик совершаемой им специфической
+											работы и принципа <br>
+											мультипараметрической оценки реакций организма спортсмена на совершаемую им
+											тренировочную <br>
+											и соревновательную работу.
+										</p>
+									</div>
+									<div class="advantage-item__images">
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_1.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_2.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_3.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="advantage-item__icon"
+									style="background-image: url('img/landing/advantage-icons/smil.svg')"></div>
+								<div class="advantage-item__title">
+									Специальные условия
+								</div>
+								<div class="advantage-item__text">
+									Для тренеров, организаторов спортивных групп, турагентов и спортивных федераций
+									действуют особые условия при бронировании тренировочного сбора.
+								</div>
+							</div>
+
+							<div class="advantage-item advantage-item__show">
+								<div class="hidden-info">
+									<div class="advantage-item__description">
+										<p>
+											<b>Диагностика спортсмена</b>, помощь выбора подходящего <br>
+											вида спорта, правильное оценивание физической подготовки и распределение
+											<br>
+											нагрузки, наблюдение за каждым спортсменом и индивидуальный подход.
+										</p>
+
+										<p>
+											<b>Контроль за функциональной готовностью организма спортсмена</b> в
+											условиях осуществления<br>
+											им избранной спортивной деятельности – всегда на основе использования
+											принципа <br>
+											мультипараметрической оценки характеристик совершаемой им специфической
+											работы и принципа <br>
+											мультипараметрической оценки реакций организма спортсмена на совершаемую им
+											тренировочную <br>
+											и соревновательную работу.
+										</p>
+									</div>
+									<div class="advantage-item__images">
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_1.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_2.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_3.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="advantage-item__icon"
+									style="background-image: url('img/landing/advantage-icons/ofp.svg')"></div>
+								<div class="advantage-item__title">
+									Мастер-классы
+								</div>
+								<div class="advantage-item__text">
+									Возможность участия в мастер-классах от известных спортсменов
+								</div>
+							</div>
+
+							<div class="advantage-item advantage-item__show">
+								<div class="hidden-info">
+									<div class="advantage-item__description">
+										<p>
+											<b>Диагностика спортсмена</b>, помощь выбора подходящего <br>
+											вида спорта, правильное оценивание физической подготовки и распределение
+											<br>
+											нагрузки, наблюдение за каждым спортсменом и индивидуальный подход.
+										</p>
+
+										<p>
+											<b>Контроль за функциональной готовностью организма спортсмена</b> в
+											условиях осуществления<br>
+											им избранной спортивной деятельности – всегда на основе использования
+											принципа <br>
+											мультипараметрической оценки характеристик совершаемой им специфической
+											работы и принципа <br>
+											мультипараметрической оценки реакций организма спортсмена на совершаемую им
+											тренировочную <br>
+											и соревновательную работу.
+										</p>
+									</div>
+									<div class="advantage-item__images">
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_1.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_2.jpg" alt="">
+										</div>
+										<div class="popup-images__item">
+											<img src="img/gallery/gallery_3.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="advantage-item__icon"
+									style="background-image: url('img/landing/advantage-icons/document.svg')"></div>
+								<div class="advantage-item__title">
+									Мастер-классы
+								</div>
+								<div class="advantage-item__text">
+									Возможность участия в мастер-классах от известных спортсменов
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+				<!-- gallery -->
+				<section id="gallery" class="section gallery" data-anchor="gallery" style="background-color: #f5f5f5;">
+					<h3 class="h3" style="color: #363636;">Галерея</h3>
+					<div class="container">
+						<div class="gallery-container">
+							<div class="gallery-wrap">
+								<div class="gallery-item gallery-item--show">
+									<a href="#" title="Имя"
+										data-img-big="background-image: url('img/gallery/gallery_1.jpg')">
+										<div class="gallery-item__img"
+											style="background-image: url('img/gallery/gallery_1.jpg')">
+
+										</div>
+									</a>
+								</div>
+
+								<div class="gallery-item">
+									<a href="#" title="Имя"
+										data-img-big="background-image: url('img/gallery/gallery_2.jpg')">
+										<div class="gallery-item__img"
+											style="background-image: url('img/gallery/gallery_2.jpg')">
+
+										</div>
+									</a>
+								</div>
+								<div class="gallery-item">
+									<a href="#" title="Имя"
+										data-img-big="background-image: url('img/gallery/gallery_3.jpg')">
+										<div class="gallery-item__img"
+											style="background-image: url('img/gallery/gallery_3.jpg')">
+
+										</div>
+									</a>
+								</div>
+								<div class="gallery-item">
+									<a href="#" title="Имя"
+										data-img-big="background-image: url('img/gallery/gallery_4.jpg')">
+										<div class="gallery-item__img"
+											style="background-image: url('img/gallery/gallery_4.jpg')">
+
+										</div>
+									</a>
+								</div>
+								<div class="gallery-item">
+									<a href="#" title="Имя"
+										data-img-big="background-image: url('img/gallery/gallery_5.jpg')">
+										<div class="gallery-item__img"
+											style="background-image: url('img/gallery/gallery_5.jpg')">
+
+										</div>
+									</a>
+								</div>
+
+								<div class="gallery-item">
+									<a href="#" title="Имя"
+										data-img-big="background-image: url('img/gallery/gallery_6.jpg')">
+										<div class="gallery-item__img"
+											style="background-image: url('img/gallery/gallery_6.jpg')">
+
+										</div>
+									</a>
+								</div>
+								<div class="gallery-item">
+									<a href="#" title="Имя"
+										data-img-big="background-image: url('img/gallery/gallery_7.jpg')">
+										<div class="gallery-item__img"
+											style="background-image: url('img/gallery/gallery_7.jpg')">
+
+										</div>
+									</a>
+								</div>
+								<div class="gallery-item">
+									<a href="#" title="Имя"
+										data-img-big="background-image: url('img/gallery/gallery_8.jpg')">
+										<div class="gallery-item__img"
+											style="background-image: url('img/gallery/gallery_8.jpg')">
+
+										</div>
+									</a>
+								</div>
+								<div class="gallery-item">
+									<a href="#" title="Имя"
+										data-img-big="background-image: url('img/gallery/gallery_8.jpg')">
+										<div class="gallery-item__img"
+											style="background-image: url('img/gallery/gallery_8.jpg')">
+
+										</div>
+									</a>
+								</div>
+								<div class="gallery-item">
+									<a href="#" title="Имя"
+										data-img-big="background-image: url('img/gallery/gallery_8.jpg')">
+										<div class="gallery-item__img"
+											style="background-image: url('img/gallery/gallery_8.jpg')">
+
+										</div>
+									</a>
+								</div>
+
+
+							</div>
+						</div>
+						<div class="btn-wrap">
+							<span class="btn-more" language-en="Hide all">Смотреть все</span>
+						</div>
+
+
+					</div>
+				</section>
+
+				<!-- video-player -->
+				<section id="video-player" class="video-player" data-anchor="video-player"
+					style="background-image: url('img/landing/2.png');">
+					<div class="video-container">
+						<div id="play-btn" style="background-image: url('img/landing/youtube.svg')"></div>
+						<div id="player" data-videoId="SWiPubMSkd8"></div>
+						<div id='player-volume' class="btn-volume muted">
+						</div>
+						<a class="player-btn" href="#form-section"><button class="btn btn--green ripple-effect">Оставить
+								заявку</button></a>
+						<a class="yt-link" href="https://www.youtube.com/channel/UCnv1Dj0aetv53spSg7bN7Fw"
+							target="_blank"></a>
+					</div>
+				</section>
+
+				<!-- services -->
+				<section id="services" class="section services" data-anchor="services"
+					style="background-image: url('img/landing/services-bg.jpg');">
+					<div class="container">
+						<h3 class="h3" style="color: #363636;">Услуги</h3>
+						<ul class="services-list">
+							<li class="services-item">
+								<div class="services-item__icon">
+									<div class="icon-box"
+										style="background-image: url('img/landing/services-icons/017-athlete.svg')">
+									</div>
+								</div>
+								<div class="services-item__descr">
+									Подбор спортивного инвентаря и оборудования
+								</div>
+							</li>
+							<li class="services-item">
+								<div class="services-item__icon">
+									<div class="icon-box"
+										style="background-image: url('img/landing/services-icons/020-winner.svg')">
+									</div>
+								</div>
+								<div class="services-item__descr">
+									Организация соревнований с другими командами
+								</div>
+							</li>
+							<li class="services-item">
+								<div class="services-item__icon">
+									<div class="icon-box"
+										style="background-image: url('img/landing/services-icons/043-swim.svg')">
+									</div>
+								</div>
+								<div class="services-item__descr">
+									Тренировки на дамбах, на открытой воде и индор тренировки
+								</div>
+							</li>
+							<li class="services-item">
+								<div class="services-item__icon">
+									<div class="icon-box"
+										style="background-image: url('img/landing/services-icons/008-knife-fork-and-plate.svg')">
+									</div>
+								</div>
+								<div class="services-item__descr">
+									Составление индивидуального меню
+								</div>
+							</li>
+							<li class="services-item">
+								<div class="services-item__icon">
+									<div class="icon-box"
+										style="background-image: url('img/landing/services-icons/005-hotel.svg')">
+									</div>
+								</div>
+								<div class="services-item__descr">
+									Отели от 3* до 5* на первой и второй линии
+								</div>
+							</li>
+							<li class="services-item">
+								<div class="services-item__icon">
+									<div class="icon-box"
+										style="background-image: url('img/landing/services-icons/004-doctor.svg')">
+									</div>
+								</div>
+								<div class="services-item__descr">
+									Спортивная медицина и все виды медицинских услуг
+								</div>
+							</li>
+							<li class="services-item">
+								<div class="services-item__icon">
+									<div class="icon-box"
+										style="background-image: url('img/landing/services-icons/001-taxi.svg')">
+									</div>
+								</div>
+								<div class="services-item__descr">
+									Трансферы Аэропорт - Отель - Аэропорт
+								</div>
+							</li>
+							<li class="services-item">
+								<div class="services-item__icon">
+									<div class="icon-box"
+										style="background-image: url('img/landing/services-icons/045-climbing.svg')">
+									</div>
+								</div>
+								<div class="services-item__descr">
+									Активный отдых и лучшие экскурсии
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- privileges -->
+				<section id="privileges" class="section privileges" data-anchor="privileges"
+					style="background-color: #fff;">
+					<div class="container">
+						<h3 class="h3" style="color: #363636;">Почему именно мы?</h3>
+						<div class="privileges-descr">
+							Наша компания ACTIVE PLANET учитывает пожелания каждой группы и готова создать для вас
+							индивидуальное, подходящее именно вам, предложение!
+						</div>
+						<ul class="privileges-list">
+							<li class="privileges-item">
+								<div class="privileges-item__icon"
+									style="background-image: url('img/landing/privileges-icons/handshake.svg')">
+								</div>
+								<div class="privileges-item__text">
+									Бесплатная консультация
+								</div>
+							</li>
+							<li class="privileges-item">
+								<div class="privileges-item__icon"
+									style="background-image: url('img/landing/privileges-icons/building.svg')">
+								</div>
+								<div class="privileges-item__text">
+									Лучшие спортивные объекты и места проживания
+								</div>
+							</li>
+							<li class="privileges-item">
+								<div class="privileges-item__icon"
+									style="background-image: url('img/landing/privileges-icons/contract.svg')">
+								</div>
+								<div class="privileges-item__text">
+									Составление КП в течении часа по вашему запросу
+								</div>
+							</li>
+							<li class="privileges-item">
+								<div class="privileges-item__icon"
+									style="background-image: url('img/landing/privileges-icons/network.svg')">
+								</div>
+								<div class="privileges-item__text">
+									Сотрудничаем с международными партнерами
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="parallax">
+					<div id="slides">
+						<div class="slide">
+							<span class="animate in"
+								style="background-image: url('img/landing/parallax-bg/swim-864383_1920.jpg')"></span>
+						</div>
+						<div class="slide">
+							<span class="animate in"
+								style="background-image: url('img/landing/parallax-bg/the-ball-488718_1920.jpg')"></span>
+						</div>
+						<div class="slide">
+							<span class="animate in"
+								style="background-image: url('img/landing/parallax-bg/woman-1822459_1920.jpg')"></span>
+						</div>
+					</div>
+					<div class="parallax-info">
+						<div class="parallax-info__caption">
+							Возникли вопросы?
+						</div>
+						<div class="parallax-info__text">
+							Оставьте заявку и мы свяжемся с вами
+						</div>
+						<a href="#form-section"><button class="btn btn--green ripple-effect">Оставить
+								заявку</button></a>
+					</div>
+				</section>
+
+				<!-- comments -->
+				<section id="comments" class="section comments" data-anchor="comments" style="background-color: #fff;">
+					<div class="container">
+						<h3 class="h3" style="color: #363636;">Отзывы</h3>
+						<div class="swiper-container swiper-comments">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="comment">
+										<div class="comment-avatar">
+											<img src="img/landing/avatar.png" alt="">
+										</div>
+										<div class="comment-content">
+											<div class="comment-content__author">
+												Кутний Илья
+											</div>
+											<div class="comment-content__text">
+												Давно хотел начать заниматься академической греблей и очень доволен, что
+												попал на своё первое занятие к Никаэлю. Титулованный спортсмен, отличный
+												тренер и очень приятный в общении человек. На первом занятии все
+												объяснил, дал
+												необходимую нагрузку. Не отходил ни на шаг от меня, поправляю ошибки.
+												Занятием остался крайне доволен. Всем рекомендую!
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="comment">
+										<div class="comment-avatar">
+											<img src="img/landing/avatar.png" alt="">
+										</div>
+										<div class="comment-content">
+											<div class="comment-content__author">
+												Кутний Илья
+											</div>
+											<div class="comment-content__text">
+												Давно хотел начать заниматься академической греблей и очень доволен, что
+												попал на своё первое занятие к Никаэлю. Титулованный спортсмен, отличный
+												тренер и очень приятный в общении человек. На первом занятии все
+												объяснил, дал
+												необходимую нагрузку. Не отходил ни на шаг от меня, поправляю ошибки.
+												Занятием остался крайне доволен. Всем рекомендую!
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="comment">
+										<div class="comment-avatar">
+											<img src="img/landing/avatar.png" alt="">
+										</div>
+										<div class="comment-content">
+											<div class="comment-content__author">
+												Кутний Илья
+											</div>
+											<div class="comment-content__text">
+												Давно хотел начать заниматься академической греблей и очень доволен, что
+												попал на своё первое занятие к Никаэлю. Титулованный спортсмен, отличный
+												тренер и очень приятный в общении человек. На первом занятии все
+												объяснил, дал
+												необходимую нагрузку. Не отходил ни на шаг от меня, поправляю ошибки.
+												Занятием остался крайне доволен. Всем рекомендую!
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-button-next"></div>
+							<div class="swiper-button-prev"></div>
+						</div>
+					</div>
+				</section>
+
+				<!-- form -->
+				<section id="form-section" class="section form-section" data-anchor="form-section"
+					style="background-color: #fff;">
+					<h3 class="h3" style="color: #363636;">Заявка</h3>
+
+					<div class="container container-form">
+						<div class="section-text">
+							Лучшие сборы только у нас! <br>
+							Заполните заявку и мы свяжемся с вами и поможем подобрать сбор.
+						</div>
+						<form action="#" class="contact-us__form form">
+							<div class="form__inputs">
+								<div class="form__input name-input">
+									<input class="form__input-field" type="text" name="name" id="name" required=""
+										placeholder="Имя">
+									<label for="name" class="form__input-label">
+										<span class="form__input-icon" svg-data-uri></span>
+									</label>
+									<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+										preserveAspectRatio="none">
+										<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+									</svg>
+								</div>
+								<div class="form__input email-input">
+									<input class="form__input-field" type="email" name="email" id="email" required=""
+										placeholder="Email">
+									<label for="email" class="form__input-label">
+										<span class="form__input-icon" svg-data-uri></span>
+									</label>
+									<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+										preserveAspectRatio="none">
+										<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+									</svg>
+								</div>
+								<div class="form__input phone-input">
+									<input class="form__input-field" type="phone" name="phone" id="phone" required=""
+										placeholder="Телефон">
+									<label for="phone" class="form__input-label">
+										<span class="form__input-icon" svg-data-uri></span>
+									</label>
+									<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+										preserveAspectRatio="none">
+										<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+									</svg>
+								</div>
+							</div>
+							<div class="form__comment">
+								<textarea class="form__comment-field" id="comment-text" name="comment-text"
+									placeholder="Комментарий"></textarea>
+								<label class="form__comment-label" for="comment-text">
+									<span class="form__input-icon" svg-data-uri></span>
+								</label>
+								<svg class="form__border form__border--small" width="100%" height="100%"
+									viewBox="0 0 404 77" preserveAspectRatio="none">
+									<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+								</svg>
+							</div>
+							<div class="form__btn">
+								<button class="btn btn--green ripple-effect btn-open-success"
+									type="submit">Отправить</button>
+							</div>
+						</form>
+					</div>
+				</section>
+
+			</div>
+
+
+		</div>
+
+		<footer class="footer">
+			<div class="footer__top" style="background-color: #eee">
+				<div class="container">
+					<nav class="footer__menu">
+						<ul class="menu menu__list">
+							<li class="menu__item"><a href="#advantages" class="menu__link">В стоимость входит</a></li>
+							<li class="menu__item"><a href="#advantage" class="menu__link">Преимущества</a></li>
+							<li class="menu__item"><a href="#gallery" class="menu__link">Галерея</a></li>
+							<li class="menu__item"><a href="#video-player" class="menu__link">Видео</a></li>
+							<li class="menu__item"><a href="#services" class="menu__link">Услуги</a></li>
+							<li class="menu__item"><a href="#privileges" class="menu__link">Почему мы</a></li>
+							<li class="menu__item"><a href="#comments" class="menu__link">Отзывы</a></li>
+						</ul>
+					</nav>
+
+
+
+					<div class="socials">
+						<ul class="socials__list">
+							<li class="socials__item"><a href="#" class="socials__link socials__link--facebook"
+									svg-data-uri></a></li>
+							<li class="socials__item"><a href="#" class="socials__link socials__link--youtube"
+									svg-data-uri></a></li>
+							<li class="socials__item"><a href="#" class="socials__link socials__link--vk"
+									svg-data-uri></a></li>
+							<li class="socials__item"><a href="#" class="socials__link socials__link--pin"
+									svg-data-uri></a></li>
+							<li class="socials__item"><a href="#" class="socials__link socials__link--tw"
+									svg-data-uri></a></li>
+							<li class="socials__item"><a href="#" class="socials__link socials__link--odn"
+									svg-data-uri></a></li>
+							<li class="socials__item"><a href="#" class="socials__link socials__link--google"
+									svg-data-uri></a></li>
+							<li class="socials__item"><a href="#" class="socials__link socials__link--insta"
+									svg-data-uri></a></li>
+							<li class="socials__item"><a href="#" class="socials__link socials__link--in"
+									svg-data-uri></a></li>
+						</ul>
+					</div>
+
+					<div class="adress">
+						ACTIVE PLANET LTD<br>
+						64D Metochiou Str, Egkomi,<br>
+						2407, Nicosia, Cyprus<br>
+						Tel. ‎‎22772360, fax ‎‎22780879
+					</div>
+
+					<div class="telephone">
+						<div class='telephone__item'>
+							<a href="tel:+7 977 788 55 95" class="telephone__whatsapp">+7 977 788 55 95</a>
+						</div>
+						<div class='telephone__item'>
+							<a href="tel:+357 96 785 922" class="telephone__viber">+357 96 785 922</a>
+						</div>
+						<div class='telephone__item'>
+							<a href="https://web.telegram.org/#/im?p=@ActivePlanet"
+								class="telephone__telegram">ActivePlanet</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<div class="btn-up">
+
+	</div>
+
+
+
+
+	<!-- popups -->
+	<div class="hide">
+		<div class="advantage-popup popup" style="background-color: #fff; color: #363636;">
+			<div class="popup__title popup__title--js">
+				Спортивная медицина
+			</div>
+			<div class="popup__description">
+				<p>
+					<b>Диагностика спортсмена</b>, помощь выбора подходящего <br>
+					вида спорта, правильное оценивание физической подготовки и распределение <br>
+					нагрузки, наблюдение за каждым спортсменом и индивидуальный подход.
+				</p>
+
+				<p>
+					<b>Контроль за функциональной готовностью организма спортсмена</b> в условиях осуществления<br>
+					им избранной спортивной деятельности – всегда на основе использования принципа <br>
+					мультипараметрической оценки характеристик совершаемой им специфической работы и принципа <br>
+					мультипараметрической оценки реакций организма спортсмена на совершаемую им тренировочную <br>
+					и соревновательную работу.
+				</p>
+			</div>
+			<div class="popup-images">
+				<div class="popup-images__item">
+					<img src="img/gallery/gallery_1.jpg" alt="">
+				</div>
+				<div class="popup-images__item">
+					<img src="img/gallery/gallery_2.jpg" alt="">
+				</div>
+				<div class="popup-images__item">
+					<img src="img/gallery/gallery_3.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="popup__title">
+				Заявка
+			</div>
+
+			<div class="popup__text-center">
+
+				Лучшие сборы только у нас! <br>
+				Заполните заявку и мы свяжемся с вами и поможем подобрать сбор.
+			</div>
+
+
+			<div class="container-form">
+				<form action="#" class="contact-us__form form">
+					<div class="form__inputs">
+						<div class="form__input name-input">
+							<input class="form__input-field" type="text" name="name" id="name" required=""
+								placeholder="Имя">
+							<label for="name" class="form__input-label">
+								<span class="form__input-icon" svg-data-uri></span>
+							</label>
+							<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+								preserveAspectRatio="none">
+								<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+							</svg>
+						</div>
+						<div class="form__input email-input">
+							<input class="form__input-field" type="email" name="email" id="email" required=""
+								placeholder="Email">
+							<label for="email" class="form__input-label">
+								<span class="form__input-icon" svg-data-uri></span>
+							</label>
+							<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+								preserveAspectRatio="none">
+								<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+							</svg>
+						</div>
+						<div class="form__input phone-input">
+							<input class="form__input-field" type="phone" name="phone" id="phone" required=""
+								placeholder="Телефон">
+							<label for="phone" class="form__input-label">
+								<span class="form__input-icon" svg-data-uri></span>
+							</label>
+							<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+								preserveAspectRatio="none">
+								<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="form__comment">
+						<textarea class="form__comment-field" id="comment-text" name="comment-text"
+							placeholder="Комментарий"></textarea>
+						<label class="form__comment-label" for="comment-text">
+							<span class="form__input-icon" svg-data-uri></span>
+						</label>
+						<svg class="form__border form__border--small" width="100%" height="100%" viewBox="0 0 404 77"
+							preserveAspectRatio="none">
+							<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+						</svg>
+					</div>
+					<div class="form__btn">
+						<button class="btn btn--green ripple-effect" type="submit">Отправить</button>
+					</div>
+
+
+				</form>
+			</div>
+
+		</div>
+		<div class="offer-popup popup " style="background-color: #fff;">
+			<div class="wrapper">
+				<div class="content-top">
+					<div class="top-icon">
+						<img src="img/landing/velo.svg" alt="" />
+					</div>
+					<h3>Сборы по велоспорту</h3>
+				</div>
+				<div class="content">
+					<div class="left">
+						<div class="feature-list">
+							<div class="feature-item">
+								<div class="feature-title">
+									<div class="feature-icon">
+										<img src="img/landing/mapmark.svg" alt="" />
+									</div>
+									Локация сбора
+								</div>
+								<div class="feature-value value-location">Лимассол, Кипр</div>
+							</div>
+							<div class="feature-item">
+								<div class="feature-title">
+									<div class="feature-icon">
+										<img src="img/landing/euro.svg" alt="" />
+									</div>
+									Цена (чел/день)
+								</div>
+								<div class="feature-value value-price">от 39 €</div>
+							</div>
+						</div>
+						<div class="included-in-price">
+							<div class="title">В стоимость входит</div>
+							<div class="list-background-wrapper">
+								<div class="list-wrapper"></div>
+
+								<div class="list">
+									<div class="item item-hide">
+										<div class="icon">
+											<img src="img/landing/bus.svg" alt="" />
+										</div>
+										<div class="title">
+											3-х разовое питание
+										</div>
+									</div>
+									<div class="item item-hide">
+										<div class="icon">
+											<img src="img/landing/bus.svg" alt="" />
+										</div>
+										<div class="title">
+											Трансфер
+										</div>
+									</div>
+									<div class="item item-hide">
+										<div class="icon">
+											<img src="img/landing/sport-man.svg" alt="" />
+										</div>
+										<div class="title">
+											1 тренировка в день
+										</div>
+									</div>
+									<div class="item item-hide">
+										<div class="icon">
+											<img src="img/landing/sport-man.svg" alt="" />
+										</div>
+										<div class="title">
+											Инвентарь (минимальный)
+										</div>
+									</div>
+									<div class="item item-hide">
+										<div class="icon">
+											<img src="img/landing/document.svg" alt="" />
+										</div>
+										<div class="title">
+											Тренажерный зал
+										</div>
+									</div>
+
+									<div class="item item-hide">
+										<div class="icon">
+											<img src="img/landing/document.svg" alt="" />
+										</div>
+										<div class="title">
+											Координатор группы
+										</div>
+									</div>
+
+									<div class="item item-hide">
+										<div class="icon">
+											<img src="img/landing/document.svg" alt="" />
+										</div>
+										<div class="title">
+											Обеспечение питьевой водой во время тренировок
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="full-info offer-full-info hide">
+							<div class="full-info-item">
+								<b>Место:</b>
+								Лимассол, Кипр
+							</div>
+							<div class="full-info-item">
+								<b>Проживание:</b>
+								Апарт-отель на первой линии, в 150 метрах от песчаного пляжа
+								Средиземного моря
+							</div>
+							<div class="full-info-item">
+								<div class="full-info-title">Питание:</div>
+								<div class="full-info-value">
+									3-х разовое спортивное, плюс вода и соки
+								</div>
+							</div>
+							<div class="full-info-item">
+								<b>Тренировки:</b> 6 тренировочных дней в неделю на маршрутах
+								разного уровня сложности
+							</div>
+							<div class="full-info-item">
+								<b>Трансфер:</b>
+								Аэропорт - Отель - Аэропорт
+							</div>
+							<div class="full-info-item">
+								<b>Сопровождение и поддержка:</b>
+								начиная с бронирования перелетов и на протяжении всего сбора
+							</div>
+							<div class="full-info-item">
+								<b>При условии:</b>
+								от 15 человек, от 14 ночей, в любые даты сентября по июль.
+							</div>
+							<div class="full-info-item">
+								На каждые 15 спортсменов,
+								<b>одному тренеру проживание бессплатно!</b>
+							</div>
+						</div>
+					</div>
+					<div class="right">
+						<div class="photo-list">
+							<div class="photo-item photo-item-hide">
+								<img src="img/landing/photo.svg" alt="" />
+							</div>
+							<div class="photo-item  photo-item-hide">
+								<img src="img/landing/photo.svg" alt="" />
+							</div>
+							<div class="photo-item  photo-item-hide">
+								<img src="img/landing/photo.svg" alt="" />
+							</div>
+							<div class="photo-item  photo-item-hide">
+								<img src="img/landing/photo.svg" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="offer-open-content-wrapper">
+						<span class="offer-open-content">Подробнее</span>
+					</div>
+				</div>
+			</div>
+			<div class="offer-popup-form-wrapper">
+				<div class="form-title">Быстрая заявка</div>
+				<form action="#" class="contact-us__form form">
+					<div class="form__inputs">
+						<div class="form__input name-input">
+							<input class="form__input-field" type="text" name="name" id="name" required=""
+								placeholder="Имя" />
+							<label for="name" class="form__input-label">
+								<span class="form__input-icon" svg-data-uri></span>
+							</label>
+							<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+								preserveAspectRatio="none">
+								<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+							</svg>
+						</div>
+						<div class="form__input email-input">
+							<input class="form__input-field" type="email" name="email" id="email" required=""
+								placeholder="Email" />
+							<label for="email" class="form__input-label">
+								<span class="form__input-icon" svg-data-uri></span>
+							</label>
+							<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+								preserveAspectRatio="none">
+								<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+							</svg>
+						</div>
+						<div class="form__input phone-input">
+							<input class="form__input-field" type="phone" name="phone" id="phone" required=""
+								placeholder="Телефон" />
+							<label for="phone" class="form__input-label">
+								<span class="form__input-icon" svg-data-uri></span>
+							</label>
+							<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+								preserveAspectRatio="none">
+								<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="form__comment">
+						<textarea class="form__comment-field" id="comment-text" name="comment-text"
+							placeholder="Комментарий"></textarea>
+						<label class="form__comment-label" for="comment-text">
+							<span class="form__input-icon" svg-data-uri></span>
+						</label>
+						<svg class="form__border form__border--small" width="100%" height="100%" viewBox="0 0 404 77"
+							preserveAspectRatio="none">
+							<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+						</svg>
+					</div>
+					<div class="form__btn offer-form-btn-wrapper">
+						<button class="offer-form-btn ripple-effect" type="submit">
+							Отправить
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="timetable-popup popup">
+			<div class="popup__title popup__title--js">
+				Суббота
+			</div>
+			<div class="timetable-popup__timework">
+				<span>с 10:00 до 16:00</span>
+			</div>
+			<div class="popup__description">
+
+			</div>
+
+			<div class="popup-images">
+
+			</div>
+
+
+			<div class="popup__title">
+				Заявка
+			</div>
+
+			<div class="popup__text-center">
+
+				Лучшие сборы только у нас! <br>
+				Заполните заявку и мы свяжемся с вами и поможем подобрать сбор.
+			</div>
+
+
+			<div class="container-form">
+				<form action="#" class="contact-us__form form">
+					<div class="form__inputs">
+						<div class="form__input name-input">
+							<input class="form__input-field" type="text" name="name" id="name" required=""
+								placeholder="Имя">
+							<label for="name" class="form__input-label">
+								<span class="form__input-icon" svg-data-uri></span>
+							</label>
+							<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+								preserveAspectRatio="none">
+								<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+							</svg>
+						</div>
+						<div class="form__input email-input">
+							<input class="form__input-field" type="email" name="email" id="email" required=""
+								placeholder="Email">
+							<label for="email" class="form__input-label">
+								<span class="form__input-icon" svg-data-uri></span>
+							</label>
+							<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+								preserveAspectRatio="none">
+								<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+							</svg>
+						</div>
+						<div class="form__input phone-input">
+							<input class="form__input-field" type="phone" name="phone" id="phone" required=""
+								placeholder="Телефон">
+							<label for="phone" class="form__input-label">
+								<span class="form__input-icon" svg-data-uri></span>
+							</label>
+							<svg class="form__border" width="100%" height="100%" viewBox="0 0 404 77"
+								preserveAspectRatio="none">
+								<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="form__comment">
+						<textarea class="form__comment-field" id="comment-text" name="comment-text"
+							placeholder="Комментарий"></textarea>
+						<label class="form__comment-label" for="comment-text">
+							<span class="form__input-icon" svg-data-uri></span>
+						</label>
+						<svg class="form__border form__border--small" width="100%" height="100%" viewBox="0 0 404 77"
+							preserveAspectRatio="none">
+							<path d="m0,0l404,0l0,77l-404,0l0,-77z"></path>
+						</svg>
+					</div>
+					<div class="form__btn">
+						<button class="btn btn--green ripple-effect" type="submit">Отправить</button>
+					</div>
+				</form>
+			</div>
+
+		</div>
+		<div class="gallery-popup popup">
+			<div class="popup__title">
+				Галерея
+			</div>
+
+			<div class="gallery-popup-wrap">
+				<div class="swiper-container">
+					<div class="swiper-wrapper gallery-top">
+						<div class="swiper-slide">
+							<img src="img/main/object_1.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_2.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_3.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_4.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_5.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_5.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_5.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_5.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_5.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_5.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="swiper-container ">
+					<div class="swiper-wrapper gallery-thumbs">
+						<div class="swiper-slide">
+							<img src="img/main/object_1.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_2.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_3.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_4.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_5.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_5.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_5.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_5.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_5.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/main/object_5.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination-c">
+					<div class="swiper-pagination">
+						<span></span>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="success-popup popup">
+			<div class="success-popup__icon">
+
+			</div>
+			<div class="popup__text-center">
+				Ваша заявка успешно отправлена
+			</div>
+			<div class="success-popup__btn">
+				<button class="btn btn--green ripple-effect btn-cboxclose">Ок</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/libs/jquery.min.js"></script>
+	<script src="js/libs/jquery.colorbox-min.js"></script>
+	<script src="js/libs/swiper.min.js"></script>
+	<script src="js/libs/slick.min.js"></script>
+	<script src="js/libs/svg-data-uri.min.js"></script>
+	<script src="js/libs/jquery.matchHeight-min.js"></script>
+	<script src="js/libs/jquery.subtle-slideshow.js"></script>
+
+	<script src="js/main-landing.js"></script>
+</body>
+
+</html>
