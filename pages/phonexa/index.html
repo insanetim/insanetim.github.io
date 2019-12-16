@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Phonexa Front Test</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Template Basic Images Start -->
+  <link rel="shortcut icon" href="./../img/favicon/favicon.png" />
+  <!-- Template Basic Images End -->
+
+  <!-- Custom Browsers Color Start -->
+  <meta name="theme-color" content="#fff" />
+  <!-- Custom Browsers Color End -->
+
+  <link rel="stylesheet" href="css/index.min.css" />
+</head>
+
+<body style="background: url('img/bg.jpg') center / cover">
+  <div class="form-container">
+    <form id="form" class="form" autocomplete="off">
+      <div class="tab">
+        <div class="form-field">
+          <div class="title">Register a new user</div>
+        </div>
+        <div class="form-field">
+          <input id="firstName" type="text" placeholder="First Name*" required pattern="\D+">
+          <div class="input-alert hidden">
+            This field is required. Only letters allowed.
+          </div>
+        </div>
+        <div class="form-field">
+          <input id="lastName" type="text" placeholder="Last Name*" required pattern="\D+">
+          <div class="input-alert hidden">
+            This field is required. Only letters allowed.
+          </div>
+        </div>
+        <div class="form-field">
+          <input id="login" type="text" placeholder="Login*" required>
+          <div class="input-alert hidden">
+            This field is required.
+          </div>
+        </div>
+        <div class="form-field">
+          <input id="email" type="email" placeholder="Email*" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+          <div class="input-alert hidden">
+            This field is required. Example: characters@characters.domain
+          </div>
+        </div>
+        <div class="form-field">
+          <input id="company" type="text" placeholder="Company Name">
+          <div class="input-alert"></div>
+        </div>
+        <div class="form-field">
+          <input id="password" type="password" placeholder="Password*" required pattern="(?=.*[!@#\$%\^&])(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+          <div class="input-alert hidden">
+            Required 8 or more characters, at least one number (0-9), uppercase and lowercase letters (a-Z) and at least one special character (!@#$%^&).
+          </div>
+        </div>
+        <div class="form-field">
+          <input id="passwordConfirm" type="password" placeholder="Confirm Password*">
+          <div class="input-alert hidden">
+            Must be equal to password
+          </div>
+        </div>
+      </div>
+      <div class="tab">
+        <div class="form-field">
+          <div class="title">
+            Choose your specialization
+          </div>
+        </div>
+        <div class="form-field">
+          <select id="department" required></select>
+          <div class="input-alert hidden">
+            This field is required.
+          </div>
+        </div>
+        <div class="form-field">
+          <select id="job" disabled required></select>
+          <div class="input-alert hidden">
+            This field is required.
+          </div>
+        </div>
+      </div>
+      <div class="tab">
+        <div class="form-field">
+          <div class="title">
+            Check your information:
+          </div>
+        </div>
+        <div class="form-field text-left">
+          <div class="output-row">
+            <b>Name: </b><span id="outputName"></span>
+          </div>
+          <div class="output-row">
+            <b>Login: </b><span id="outputLogin"></span>
+          </div>
+          <div class="output-row">
+            <b>Email: </b><span id="outputEmail"></span>
+          </div>
+          <div class="output-row">
+            <b>Company: </b><span id="outputCompany"></span>
+          </div>
+          <div class="output-row">
+            <b>Department: </b><span id="outputDepartment"></span>
+          </div>
+          <div class="output-row">
+            <b>Job Title: </b><span id="outputJob"></span>
+          </div>
+        </div>
+        <div class="form-field text-left">
+          Click send if everything correct. Click edit if you see error.
+        </div>
+      </div>
+      <div class="form-controls">
+        <button id="editBtn" class="btn">Edit</button>
+        <button id="nextBtn" class="btn">Next Step</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- scripts -->
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
