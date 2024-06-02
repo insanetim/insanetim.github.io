@@ -51,16 +51,44 @@
         font-size: 22px;
       }
 
+      .scroll-down {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 80px;
+        height: auto;
+        opacity: 0.6;
+        animation: scroll-down 3s ease-in-out infinite both;
+      }
+
       @media only screen and (max-width: 768px) {
         .about-text {
           padding: 0;
           font-size: 18px;
+        }
+
+        .scroll-down {
+          bottom: 60px;
+          width: 70px;
         }
       }
 
       @media only screen and (max-width: 480px) {
         .about-text {
           font-size: 14px;
+        }
+
+        .scroll-down {
+          bottom: 30px;
+          width: 60px;
+        }
+      }
+
+      @keyframes scroll-down {
+        50% {
+          transform: translate(-50%, 20px);
+          opacity: 1;
         }
       }
     </style>
@@ -98,6 +126,11 @@
             </li>
           </ul>
         </div>
+        <img
+          class="scroll-down"
+          src="img/scroll-bar.png"
+          alt="scroll down icon"
+        />
       </section>
       <section
         class="section s-about"
